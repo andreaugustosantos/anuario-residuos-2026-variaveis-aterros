@@ -1,0 +1,25 @@
+# Chave da Google Routes API. Nunca deve ir para o repositorio.
+chave_google.txt
+
+# Bases de dados. São publicas e pesadas: cada pessoa baixa na origem,
+# seguindo os enderecos indicados no README.
+dados/
+*.xlsx
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# Arquivos que os scripts geram ao rodar. Não fazem parte do codigo.
+saida/
+
+# Arquivos temporarios do Python.
+__pycache__/
+*.pyc
+.venv/
+
+# Ambiente e editor.
+.vscode/
+.env
+.DS_Store
